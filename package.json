@@ -1,0 +1,34 @@
+{
+  "name": "fix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:nodemon": "nodemon src/index.js",
+    "setup-env": "node src/scripts/setupEnvFile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apexify.js": "4.5.43",
+    "ascii-table": "^0.0.9",
+    "axios": "^1.7.7",
+    "canvacord": "^5.4.8",
+    "canvafy": "^7.1.0",
+    "samp-query": "^0.1.5",
+    "canvas": "^2.10.2",
+    "discord-arts": "^0.6.1",
+    "discord-giveaways": "^6.0.1",
+    "discord-html-transcripts": "3.2.0",
+    "discord.js": "^14.14.1",
+    "discord-logs": "^2.0.1",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "latest": "0.2.0",
+    "mongoose": "^6.0.12",
+    "path": "^0.12.7",
+    "quickchart-js": "^3.0.0"
+  }
+}

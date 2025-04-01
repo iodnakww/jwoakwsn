@@ -1,0 +1,953 @@
+
+
+[2025-03-30T01:34:23.107Z] [INFO] [2025-3-30 01:34:23] [CONSOLE_LOGGER] Console logger initialized. Logs will be sent to Discord webhook.
+[2025-03-30T01:34:23.638Z] [INFO] [2025-3-30 01:34:23] [PROCESS] Process handlers loaded.
+
+[2025-03-30T01:34:23.640Z] [INFO] channelUpdate event handler registered.
+
+[2025-03-30T01:34:23.641Z] [INFO] guildUpdate event handler registered.
+
+[2025-03-30T01:34:23.641Z] [INFO] roleUpdate event handler registered.
+
+[2025-03-30T01:34:23.641Z] [INFO] threadUpdate event handler registered.
+
+[2025-03-30T01:34:23.641Z] [INFO] guildMemberUpdate event handler registered.
+
+[2025-03-30T01:34:23.641Z] [INFO] userUpdate event handler registered.
+
+[2025-03-30T01:34:23.641Z] [INFO] messageUpdate event handler registered.
+
+[2025-03-30T01:34:23.641Z] [INFO] presenceUpdate event handler registered.
+
+[2025-03-30T01:34:23.642Z] [INFO] voiceStateUpdate event handler registered.
+
+[2025-03-30T01:34:27.331Z] [INFO] .--------------------------------------.
+|          File Name          | Status |
+|-----------------------------|--------|
+| auditLogging.js             | Loaded |
+| list-autoresponse.js        | Loaded |
+| remove-autoresponse.js      | Loaded |
+| setup-autoresponse.js       | Loaded |
+| minecraftInfo.js            | Loaded |
+| ping.js                     | Loaded |
+| countingSystem.js           | Loaded |
+| giveaway.js                 | Loaded |
+| avatar.js                   | Loaded |
+| memberCountGraph.js         | Loaded |
+| uptime.js                   | Loaded |
+| userinfo.js                 | Loaded |
+| leaderboard.js              | Loaded |
+| levellingSystem.js          | Loaded |
+| rank.js                     | Loaded |
+| rankContextMenu.js          | Loaded |
+| announcement.js             | Loaded |
+| antiLink.js                 | Loaded |
+| ban.js                      | Loaded |
+| kick.js                     | Loaded |
+| lock.js                     | Loaded |
+| muted.js                    | Loaded |
+| poll.js                     | Loaded |
+| purge.js                    | Loaded |
+| role.js                     | Loaded |
+| unban-all.js                | Loaded |
+| unban.js                    | Loaded |
+| unlock.js                   | Loaded |
+| unmuted.js                  | Loaded |
+| warning.js                  | Loaded |
+| add-role.js                 | Loaded |
+| remove-role.js              | Loaded |
+| send-reactionroles-panel.js | Loaded |
+| add-select-product.js       | Loaded |
+| reset-all-menu-product.js   | Loaded |
+| send-panel-product.js       | Loaded |
+| sticky-message.js           | Loaded |
+| blacklist.js                | Loaded |
+| reset-buyer.js              | Loaded |
+| setup-testimoni.js          | Loaded |
+| testimoni.js                | Loaded |
+| ticket.js                   | Loaded |
+| verify.js                   | Loaded |
+| reset-vouch.js              | Loaded |
+| setup-vouch.js              | Loaded |
+| vouch.js                    | Loaded |
+| goodbye.js                  | Loaded |
+| welcome.js                  | Loaded |
+'--------------------------------------' 
+[2025-3-30 01:34:27] [COMMANDS] Found 48 SlashCommands.
+
+[2025-03-30T01:34:27.331Z] [INFO] [2025-3-30 01:34:27] [SLASH_COMMANDS] Started refreshing application (/) commands.
+
+[2025-03-30T01:34:27.333Z] [INFO] [2025-3-30 01:34:27] [PREFIX_COMMANDS] Started refreshing prefix (?) commands.
+
+[2025-03-30T01:34:27.334Z] [INFO] [38;5;202m.---------------------.
+| File Name  | Status |
+|------------|--------|
+| help.js    | Loaded |
+| botInfo.js | Loaded |
+| uptime.js  | Loaded |
+| ping.js    | Loaded |
+'---------------------' 
+[2025-3-30 01:34:27] [PREFIX_COMMANDS] Found 4 PrefixCommands.
+
+[2025-03-30T01:34:27.334Z] [INFO] [2025-3-30 01:34:27] [PREFIX_COMMANDS] Successfully reloaded prefix (?) commands.
+
+[2025-03-30T01:34:28.169Z] [INFO] [2025-3-30 01:34:28] [SLASH_COMMANDS] Successfully reloaded application (/) commands.
+
+[2025-03-30T01:34:28.813Z] [INFO] [38;5;45m[2025-3-30 01:34:28] [LATEST_VERSION] You have the latest version of the code. (v3.0.1) 
+
+[2025-03-30T01:34:29.974Z] [INFO] [2025-3-30 01:34:29] [SCHEMAS] Started loading schemas...
+
+[2025-03-30T01:34:29.981Z] [INFO] [2025-3-30 01:34:29] [ROTATING_STATUS] Setting rotating status...
+
+[2025-03-30T01:34:29.981Z] [INFO] [2025-3-30 01:34:29] [ROTATING_STATUS] Rotating status loaded successfully.
+
+[2025-03-30T01:34:29.981Z] [INFO] [2025-3-30 01:34:29] [STATUS] Setting status...
+
+[2025-03-30T01:34:29.981Z] [INFO] [2025-3-30 01:34:29] [STATUS] Tio Beta's status loaded as dnd.
+
+[2025-03-30T01:34:30.785Z] [INFO] [2025-3-30 01:34:30] [EVENTS] Started loading events...
+
+[2025-03-30T01:34:30.785Z] [INFO] [2025-3-30 01:34:30] [EVENTS] Loaded 45 events.
+
+[2025-03-30T01:34:30.786Z] [INFO] [2025-3-30 01:34:30] [DATABASE] Connected to MongoDB successfully.
+
+[2025-03-30T01:34:30.786Z] [INFO] [2025-3-30 01:34:30] [TRIGGERS] Started loading triggers...
+
+[2025-03-30T01:34:30.786Z] [INFO] [2025-3-30 01:34:30] [SCRIPTS] Started loading scripts...
+
+[2025-03-30T01:34:30.786Z] [INFO] [38;5;213m[2025-3-30 01:34:30] ========================================================================================================= 
+
+[2025-03-30T01:34:30.786Z] [INFO] [38;5;213m[2025-3-30 01:34:30] ██████╗ ███████╗██╗   ██╗    ██████╗ ██╗   ██╗    ██╗  ██╗██╗  ██╗███████╗██████╗ ███╗   ███╗██╗████████╗ 
+
+[2025-03-30T01:34:30.787Z] [INFO] [38;5;213m[2025-3-30 01:34:30] ██╔══██╗██╔════╝██║   ██║    ██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║ ██╔╝██╔════╝██╔══██╗████╗ ████║██║╚══██╔══╝ 
+
+[2025-03-30T01:34:30.787Z] [INFO] [38;5;213m[2025-3-30 01:34:30] ██║  ██║█████╗  ██║   ██║    ██████╔╝ ╚████╔╝     █████╔╝ █████╔╝ █████╗  ██████╔╝██╔████╔██║██║   ██║    
+
+[2025-03-30T01:34:30.787Z] [INFO] [38;5;213m[2025-3-30 01:34:30] ██║  ██║██╔══╝  ╚██╗ ██╔╝    ██╔══██╗  ╚██╔╝      ██╔═██╗ ██╔═██╗ ██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║    
+
+[2025-03-30T01:34:30.787Z] [INFO] [38;5;213m[2025-3-30 01:34:30] ██████╔╝███████╗ ╚████╔╝     ██████╔╝   ██║       ██║  ██╗██║  ██╗███████╗██║  ██║██║ ╚═╝ ██║██║   ██║    
+
+[2025-03-30T01:34:30.787Z] [INFO] [38;5;213m[2025-3-30 01:34:30] ╚═════╝ ╚══════╝  ╚═══╝      ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝    
+
+[2025-03-30T01:34:30.787Z] [INFO] [38;5;213m[2025-3-30 01:34:30] ================================== 
+
+[2025-03-30T01:34:30.787Z] [INFO] [38;5;213m[2025-3-30 01:34:30] [BOT] Tio Beta has been launched! 
+
+[2025-03-30T01:34:30.788Z] [INFO] [38;5;213m[2025-3-30 01:34:30] [BOT] Watching over 133 members! 
+
+[2025-03-30T01:34:30.788Z] [INFO] [38;5;213m[2025-3-30 01:34:30] [BOT] Watching over 6 servers! 
+
+[2025-03-30T01:34:30.788Z] [INFO] [2025-3-30 01:34:30] [SCHEMAS] Loaded 27 schema files.
+
+[2025-03-30T01:34:30.788Z] [INFO] [2025-3-30 01:34:30] [TRIGGERS] Loaded 1 triggers files.
+
+[2025-03-30T01:34:30.788Z] [INFO] [2025-3-30 01:34:30] [SCRIPTS] Loaded 4 scripts files.
+
+[2025-03-30T01:35:03.277Z] [INFO] [2025-3-30 01:35:03] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:35:35.793Z] [INFO] [2025-3-30 01:35:35] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:35:45.531Z] [INFO] [2025-3-30 01:35:45] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:35:45.597Z] [ERROR] TypeError [ColorConvert]: Unable to convert "RED" to a number.
+    at resolveColor (/home/runner/workspace/node_modules/discord.js/src/util/Util.js:295:11)
+    at EmbedBuilder.setColor (/home/runner/workspace/node_modules/discord.js/src/structures/EmbedBuilder.js:23:36)
+    at Object.execute (/home/runner/workspace/src/commands/SelectMenuProduct/send-panel-product.js:60:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/src/events/CreateEvents/interactionCreate.js:9:9) {
+  code: 'ColorConvert'
+}
+
+[2025-03-30T01:37:12.931Z] [INFO] [2025-3-30 01:37:12] [CONSOLE_LOGGER] Console logger initialized. Logs will be sent to Discord webhook.
+[2025-03-30T01:37:13.211Z] [INFO] [2025-3-30 01:37:13] [PROCESS] Process handlers loaded.
+
+[2025-03-30T01:37:13.213Z] [INFO] channelUpdate event handler registered.
+
+[2025-03-30T01:37:13.213Z] [INFO] guildUpdate event handler registered.
+
+[2025-03-30T01:37:13.214Z] [INFO] roleUpdate event handler registered.
+
+[2025-03-30T01:37:13.214Z] [INFO] threadUpdate event handler registered.
+
+[2025-03-30T01:37:13.214Z] [INFO] guildMemberUpdate event handler registered.
+
+[2025-03-30T01:37:13.214Z] [INFO] userUpdate event handler registered.
+
+[2025-03-30T01:37:13.214Z] [INFO] messageUpdate event handler registered.
+
+[2025-03-30T01:37:13.214Z] [INFO] presenceUpdate event handler registered.
+
+[2025-03-30T01:37:13.214Z] [INFO] voiceStateUpdate event handler registered.
+
+[2025-03-30T01:37:13.646Z] [INFO] .--------------------------------------.
+|          File Name          | Status |
+|-----------------------------|--------|
+| auditLogging.js             | Loaded |
+| list-autoresponse.js        | Loaded |
+| remove-autoresponse.js      | Loaded |
+| setup-autoresponse.js       | Loaded |
+| minecraftInfo.js            | Loaded |
+| ping.js                     | Loaded |
+| countingSystem.js           | Loaded |
+| giveaway.js                 | Loaded |
+| avatar.js                   | Loaded |
+| memberCountGraph.js         | Loaded |
+| uptime.js                   | Loaded |
+| userinfo.js                 | Loaded |
+| leaderboard.js              | Loaded |
+| levellingSystem.js          | Loaded |
+| rank.js                     | Loaded |
+| rankContextMenu.js          | Loaded |
+| announcement.js             | Loaded |
+| antiLink.js                 | Loaded |
+| ban.js                      | Loaded |
+| kick.js                     | Loaded |
+| lock.js                     | Loaded |
+| muted.js                    | Loaded |
+| poll.js                     | Loaded |
+| purge.js                    | Loaded |
+| role.js                     | Loaded |
+| unban-all.js                | Loaded |
+| unban.js                    | Loaded |
+| unlock.js                   | Loaded |
+| unmuted.js                  | Loaded |
+| warning.js                  | Loaded |
+| add-role.js                 | Loaded |
+| remove-role.js              | Loaded |
+| send-reactionroles-panel.js | Loaded |
+| add-select-product.js       | Loaded |
+| reset-all-menu-product.js   | Loaded |
+| send-panel-product.js       | Loaded |
+| sticky-message.js           | Loaded |
+| blacklist.js                | Loaded |
+| reset-buyer.js              | Loaded |
+| setup-testimoni.js          | Loaded |
+| testimoni.js                | Loaded |
+| ticket.js                   | Loaded |
+| verify.js                   | Loaded |
+| reset-vouch.js              | Loaded |
+| setup-vouch.js              | Loaded |
+| vouch.js                    | Loaded |
+| goodbye.js                  | Loaded |
+| welcome.js                  | Loaded |
+'--------------------------------------' 
+[2025-3-30 01:37:13] [COMMANDS] Found 48 SlashCommands.
+
+[2025-03-30T01:37:13.647Z] [INFO] [2025-3-30 01:37:13] [SLASH_COMMANDS] Started refreshing application (/) commands.
+
+[2025-03-30T01:37:13.649Z] [INFO] [2025-3-30 01:37:13] [PREFIX_COMMANDS] Started refreshing prefix (?) commands.
+
+[2025-03-30T01:37:13.650Z] [INFO] [38;5;202m.---------------------.
+| File Name  | Status |
+|------------|--------|
+| help.js    | Loaded |
+| botInfo.js | Loaded |
+| uptime.js  | Loaded |
+| ping.js    | Loaded |
+'---------------------' 
+[2025-3-30 01:37:13] [PREFIX_COMMANDS] Found 4 PrefixCommands.
+
+[2025-03-30T01:37:13.650Z] [INFO] [2025-3-30 01:37:13] [PREFIX_COMMANDS] Successfully reloaded prefix (?) commands.
+
+[2025-03-30T01:37:14.499Z] [INFO] [2025-3-30 01:37:14] [SLASH_COMMANDS] Successfully reloaded application (/) commands.
+
+[2025-03-30T01:37:15.230Z] [INFO] [38;5;45m[2025-3-30 01:37:15] [LATEST_VERSION] You have the latest version of the code. (v3.0.1) 
+
+[2025-03-30T01:37:16.202Z] [INFO] [2025-3-30 01:37:16] [SCHEMAS] Started loading schemas...
+
+[2025-03-30T01:37:16.209Z] [INFO] [2025-3-30 01:37:16] [ROTATING_STATUS] Setting rotating status...
+
+[2025-03-30T01:37:16.209Z] [INFO] [2025-3-30 01:37:16] [ROTATING_STATUS] Rotating status loaded successfully.
+
+[2025-03-30T01:37:16.210Z] [INFO] [2025-3-30 01:37:16] [STATUS] Setting status...
+
+[2025-03-30T01:37:16.210Z] [INFO] [2025-3-30 01:37:16] [STATUS] Tio Beta's status loaded as dnd.
+
+[2025-03-30T01:37:16.885Z] [INFO] [2025-3-30 01:37:16] [EVENTS] Started loading events...
+
+[2025-03-30T01:37:16.886Z] [INFO] [2025-3-30 01:37:16] [EVENTS] Loaded 45 events.
+
+[2025-03-30T01:37:16.886Z] [INFO] [2025-3-30 01:37:16] [DATABASE] Connected to MongoDB successfully.
+
+[2025-03-30T01:37:16.887Z] [INFO] [2025-3-30 01:37:16] [TRIGGERS] Started loading triggers...
+
+[2025-03-30T01:37:16.887Z] [INFO] [2025-3-30 01:37:16] [SCRIPTS] Started loading scripts...
+
+[2025-03-30T01:37:16.887Z] [INFO] [38;5;213m[2025-3-30 01:37:16] ========================================================================================================= 
+
+[2025-03-30T01:37:16.888Z] [INFO] [38;5;213m[2025-3-30 01:37:16] ██████╗ ███████╗██╗   ██╗    ██████╗ ██╗   ██╗    ██╗  ██╗██╗  ██╗███████╗██████╗ ███╗   ███╗██╗████████╗ 
+
+[2025-03-30T01:37:16.888Z] [INFO] [38;5;213m[2025-3-30 01:37:16] ██╔══██╗██╔════╝██║   ██║    ██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║ ██╔╝██╔════╝██╔══██╗████╗ ████║██║╚══██╔══╝ 
+
+[2025-03-30T01:37:16.888Z] [INFO] [38;5;213m[2025-3-30 01:37:16] ██║  ██║█████╗  ██║   ██║    ██████╔╝ ╚████╔╝     █████╔╝ █████╔╝ █████╗  ██████╔╝██╔████╔██║██║   ██║    
+
+[2025-03-30T01:37:16.888Z] [INFO] [38;5;213m[2025-3-30 01:37:16] ██║  ██║██╔══╝  ╚██╗ ██╔╝    ██╔══██╗  ╚██╔╝      ██╔═██╗ ██╔═██╗ ██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║    
+
+[2025-03-30T01:37:16.888Z] [INFO] [38;5;213m[2025-3-30 01:37:16] ██████╔╝███████╗ ╚████╔╝     ██████╔╝   ██║       ██║  ██╗██║  ██╗███████╗██║  ██║██║ ╚═╝ ██║██║   ██║    
+
+[2025-03-30T01:37:16.888Z] [INFO] [38;5;213m[2025-3-30 01:37:16] ╚═════╝ ╚══════╝  ╚═══╝      ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝    
+
+[2025-03-30T01:37:16.888Z] [INFO] [38;5;213m[2025-3-30 01:37:16] ================================== 
+
+[2025-03-30T01:37:16.889Z] [INFO] [38;5;213m[2025-3-30 01:37:16] [BOT] Tio Beta has been launched! 
+
+[2025-03-30T01:37:16.889Z] [INFO] [38;5;213m[2025-3-30 01:37:16] [BOT] Watching over 133 members! 
+
+[2025-03-30T01:37:16.889Z] [INFO] [38;5;213m[2025-3-30 01:37:16] [BOT] Watching over 6 servers! 
+
+[2025-03-30T01:37:16.889Z] [INFO] [2025-3-30 01:37:16] [SCHEMAS] Loaded 27 schema files.
+
+[2025-03-30T01:37:16.889Z] [INFO] [2025-3-30 01:37:16] [TRIGGERS] Loaded 1 triggers files.
+
+[2025-03-30T01:37:16.890Z] [INFO] [2025-3-30 01:37:16] [SCRIPTS] Loaded 4 scripts files.
+
+[2025-03-30T01:37:21.589Z] [INFO] [2025-3-30 01:37:21] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:37:21.657Z] [ERROR] TypeError [ColorConvert]: Unable to convert "RED" to a number.
+    at resolveColor (/home/runner/workspace/node_modules/discord.js/src/util/Util.js:295:11)
+    at EmbedBuilder.setColor (/home/runner/workspace/node_modules/discord.js/src/structures/EmbedBuilder.js:23:36)
+    at Object.execute (/home/runner/workspace/src/commands/SelectMenuProduct/send-panel-product.js:60:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/src/events/CreateEvents/interactionCreate.js:13:13) {
+  code: 'ColorConvert'
+}
+
+[2025-03-30T01:38:03.649Z] [INFO] [2025-3-30 01:38:03] [CONSOLE_LOGGER] Console logger initialized. Logs will be sent to Discord webhook.
+[2025-03-30T01:38:03.945Z] [INFO] [2025-3-30 01:38:03] [PROCESS] Process handlers loaded.
+
+[2025-03-30T01:38:03.948Z] [INFO] channelUpdate event handler registered.
+
+[2025-03-30T01:38:03.948Z] [INFO] guildUpdate event handler registered.
+
+[2025-03-30T01:38:03.948Z] [INFO] roleUpdate event handler registered.
+
+[2025-03-30T01:38:03.948Z] [INFO] threadUpdate event handler registered.
+
+[2025-03-30T01:38:03.948Z] [INFO] guildMemberUpdate event handler registered.
+
+[2025-03-30T01:38:03.948Z] [INFO] userUpdate event handler registered.
+
+[2025-03-30T01:38:03.949Z] [INFO] messageUpdate event handler registered.
+
+[2025-03-30T01:38:03.949Z] [INFO] presenceUpdate event handler registered.
+
+[2025-03-30T01:38:03.949Z] [INFO] voiceStateUpdate event handler registered.
+
+[2025-03-30T01:38:04.388Z] [INFO] .--------------------------------------.
+|          File Name          | Status |
+|-----------------------------|--------|
+| auditLogging.js             | Loaded |
+| list-autoresponse.js        | Loaded |
+| remove-autoresponse.js      | Loaded |
+| setup-autoresponse.js       | Loaded |
+| minecraftInfo.js            | Loaded |
+| ping.js                     | Loaded |
+| countingSystem.js           | Loaded |
+| giveaway.js                 | Loaded |
+| avatar.js                   | Loaded |
+| memberCountGraph.js         | Loaded |
+| uptime.js                   | Loaded |
+| userinfo.js                 | Loaded |
+| leaderboard.js              | Loaded |
+| levellingSystem.js          | Loaded |
+| rank.js                     | Loaded |
+| rankContextMenu.js          | Loaded |
+| announcement.js             | Loaded |
+| antiLink.js                 | Loaded |
+| ban.js                      | Loaded |
+| kick.js                     | Loaded |
+| lock.js                     | Loaded |
+| muted.js                    | Loaded |
+| poll.js                     | Loaded |
+| purge.js                    | Loaded |
+| role.js                     | Loaded |
+| unban-all.js                | Loaded |
+| unban.js                    | Loaded |
+| unlock.js                   | Loaded |
+| unmuted.js                  | Loaded |
+| warning.js                  | Loaded |
+| add-role.js                 | Loaded |
+| remove-role.js              | Loaded |
+| send-reactionroles-panel.js | Loaded |
+| add-select-product.js       | Loaded |
+| reset-all-menu-product.js   | Loaded |
+| send-panel-product.js       | Loaded |
+| sticky-message.js           | Loaded |
+| blacklist.js                | Loaded |
+| reset-buyer.js              | Loaded |
+| setup-testimoni.js          | Loaded |
+| testimoni.js                | Loaded |
+| ticket.js                   | Loaded |
+| verify.js                   | Loaded |
+| reset-vouch.js              | Loaded |
+| setup-vouch.js              | Loaded |
+| vouch.js                    | Loaded |
+| goodbye.js                  | Loaded |
+| welcome.js                  | Loaded |
+'--------------------------------------' 
+[2025-3-30 01:38:04] [COMMANDS] Found 48 SlashCommands.
+
+[2025-03-30T01:38:04.389Z] [INFO] [2025-3-30 01:38:04] [SLASH_COMMANDS] Started refreshing application (/) commands.
+
+[2025-03-30T01:38:04.391Z] [INFO] [2025-3-30 01:38:04] [PREFIX_COMMANDS] Started refreshing prefix (?) commands.
+
+[2025-03-30T01:38:04.391Z] [INFO] [38;5;202m.---------------------.
+| File Name  | Status |
+|------------|--------|
+| help.js    | Loaded |
+| botInfo.js | Loaded |
+| uptime.js  | Loaded |
+| ping.js    | Loaded |
+'---------------------' 
+[2025-3-30 01:38:04] [PREFIX_COMMANDS] Found 4 PrefixCommands.
+
+[2025-03-30T01:38:04.392Z] [INFO] [2025-3-30 01:38:04] [PREFIX_COMMANDS] Successfully reloaded prefix (?) commands.
+
+[2025-03-30T01:38:05.330Z] [INFO] [2025-3-30 01:38:05] [SLASH_COMMANDS] Successfully reloaded application (/) commands.
+
+[2025-03-30T01:38:05.915Z] [INFO] [38;5;45m[2025-3-30 01:38:05] [LATEST_VERSION] You have the latest version of the code. (v3.0.1) 
+
+[2025-03-30T01:38:06.922Z] [INFO] [2025-3-30 01:38:06] [SCHEMAS] Started loading schemas...
+
+[2025-03-30T01:38:06.929Z] [INFO] [2025-3-30 01:38:06] [ROTATING_STATUS] Setting rotating status...
+
+[2025-03-30T01:38:06.929Z] [INFO] [2025-3-30 01:38:06] [ROTATING_STATUS] Rotating status loaded successfully.
+
+[2025-03-30T01:38:06.929Z] [INFO] [2025-3-30 01:38:06] [STATUS] Setting status...
+
+[2025-03-30T01:38:06.930Z] [INFO] [2025-3-30 01:38:06] [STATUS] Tio Beta's status loaded as dnd.
+
+[2025-03-30T01:38:07.622Z] [INFO] [2025-3-30 01:38:07] [EVENTS] Started loading events...
+
+[2025-03-30T01:38:07.622Z] [INFO] [2025-3-30 01:38:07] [EVENTS] Loaded 45 events.
+
+[2025-03-30T01:38:07.623Z] [INFO] [2025-3-30 01:38:07] [DATABASE] Connected to MongoDB successfully.
+
+[2025-03-30T01:38:07.623Z] [INFO] [2025-3-30 01:38:07] [TRIGGERS] Started loading triggers...
+
+[2025-03-30T01:38:07.624Z] [INFO] [2025-3-30 01:38:07] [SCRIPTS] Started loading scripts...
+
+[2025-03-30T01:38:07.624Z] [INFO] [38;5;213m[2025-3-30 01:38:07] ========================================================================================================= 
+
+[2025-03-30T01:38:07.624Z] [INFO] [38;5;213m[2025-3-30 01:38:07] ██████╗ ███████╗██╗   ██╗    ██████╗ ██╗   ██╗    ██╗  ██╗██╗  ██╗███████╗██████╗ ███╗   ███╗██╗████████╗ 
+
+[2025-03-30T01:38:07.624Z] [INFO] [38;5;213m[2025-3-30 01:38:07] ██╔══██╗██╔════╝██║   ██║    ██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║ ██╔╝██╔════╝██╔══██╗████╗ ████║██║╚══██╔══╝ 
+
+[2025-03-30T01:38:07.624Z] [INFO] [38;5;213m[2025-3-30 01:38:07] ██║  ██║█████╗  ██║   ██║    ██████╔╝ ╚████╔╝     █████╔╝ █████╔╝ █████╗  ██████╔╝██╔████╔██║██║   ██║    
+
+[2025-03-30T01:38:07.624Z] [INFO] [38;5;213m[2025-3-30 01:38:07] ██║  ██║██╔══╝  ╚██╗ ██╔╝    ██╔══██╗  ╚██╔╝      ██╔═██╗ ██╔═██╗ ██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║    
+
+[2025-03-30T01:38:07.625Z] [INFO] [38;5;213m[2025-3-30 01:38:07] ██████╔╝███████╗ ╚████╔╝     ██████╔╝   ██║       ██║  ██╗██║  ██╗███████╗██║  ██║██║ ╚═╝ ██║██║   ██║    
+
+[2025-03-30T01:38:07.625Z] [INFO] [38;5;213m[2025-3-30 01:38:07] ╚═════╝ ╚══════╝  ╚═══╝      ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝    
+
+[2025-03-30T01:38:07.625Z] [INFO] [38;5;213m[2025-3-30 01:38:07] ================================== 
+
+[2025-03-30T01:38:07.625Z] [INFO] [38;5;213m[2025-3-30 01:38:07] [BOT] Tio Beta has been launched! 
+
+[2025-03-30T01:38:07.625Z] [INFO] [38;5;213m[2025-3-30 01:38:07] [BOT] Watching over 133 members! 
+
+[2025-03-30T01:38:07.625Z] [INFO] [38;5;213m[2025-3-30 01:38:07] [BOT] Watching over 6 servers! 
+
+[2025-03-30T01:38:07.625Z] [INFO] [2025-3-30 01:38:07] [SCHEMAS] Loaded 27 schema files.
+
+[2025-03-30T01:38:07.626Z] [INFO] [2025-3-30 01:38:07] [TRIGGERS] Loaded 1 triggers files.
+
+[2025-03-30T01:38:07.626Z] [INFO] [2025-3-30 01:38:07] [SCRIPTS] Loaded 4 scripts files.
+
+[2025-03-30T01:38:12.225Z] [INFO] [2025-3-30 01:38:12] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:38:12.294Z] [ERROR] TypeError [ColorConvert]: Unable to convert "RED" to a number.
+    at resolveColor (/home/runner/workspace/node_modules/discord.js/src/util/Util.js:295:11)
+    at EmbedBuilder.setColor (/home/runner/workspace/node_modules/discord.js/src/structures/EmbedBuilder.js:23:36)
+    at Object.execute (/home/runner/workspace/src/commands/SelectMenuProduct/send-panel-product.js:60:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/src/events/CreateEvents/interactionCreate.js:14:13) {
+  code: 'ColorConvert'
+}
+
+[2025-03-30T01:39:34.015Z] [INFO] [2025-3-30 01:39:34] [CONSOLE_LOGGER] Console logger initialized. Logs will be sent to Discord webhook.
+[2025-03-30T01:39:34.253Z] [INFO] [2025-3-30 01:39:34] [PROCESS] Process handlers loaded.
+
+[2025-03-30T01:39:34.255Z] [INFO] channelUpdate event handler registered.
+
+[2025-03-30T01:39:34.256Z] [INFO] guildUpdate event handler registered.
+
+[2025-03-30T01:39:34.256Z] [INFO] roleUpdate event handler registered.
+
+[2025-03-30T01:39:34.256Z] [INFO] threadUpdate event handler registered.
+
+[2025-03-30T01:39:34.256Z] [INFO] guildMemberUpdate event handler registered.
+
+[2025-03-30T01:39:34.256Z] [INFO] userUpdate event handler registered.
+
+[2025-03-30T01:39:34.256Z] [INFO] messageUpdate event handler registered.
+
+[2025-03-30T01:39:34.309Z] [INFO] presenceUpdate event handler registered.
+
+[2025-03-30T01:39:34.309Z] [INFO] voiceStateUpdate event handler registered.
+
+[2025-03-30T01:39:34.749Z] [INFO] .--------------------------------------.
+|          File Name          | Status |
+|-----------------------------|--------|
+| auditLogging.js             | Loaded |
+| list-autoresponse.js        | Loaded |
+| remove-autoresponse.js      | Loaded |
+| setup-autoresponse.js       | Loaded |
+| minecraftInfo.js            | Loaded |
+| ping.js                     | Loaded |
+| countingSystem.js           | Loaded |
+| giveaway.js                 | Loaded |
+| avatar.js                   | Loaded |
+| memberCountGraph.js         | Loaded |
+| uptime.js                   | Loaded |
+| userinfo.js                 | Loaded |
+| leaderboard.js              | Loaded |
+| levellingSystem.js          | Loaded |
+| rank.js                     | Loaded |
+| rankContextMenu.js          | Loaded |
+| announcement.js             | Loaded |
+| antiLink.js                 | Loaded |
+| ban.js                      | Loaded |
+| kick.js                     | Loaded |
+| lock.js                     | Loaded |
+| muted.js                    | Loaded |
+| poll.js                     | Loaded |
+| purge.js                    | Loaded |
+| role.js                     | Loaded |
+| unban-all.js                | Loaded |
+| unban.js                    | Loaded |
+| unlock.js                   | Loaded |
+| unmuted.js                  | Loaded |
+| warning.js                  | Loaded |
+| add-role.js                 | Loaded |
+| remove-role.js              | Loaded |
+| send-reactionroles-panel.js | Loaded |
+| add-select-product.js       | Loaded |
+| reset-all-menu-product.js   | Loaded |
+| send-panel-product.js       | Loaded |
+| sticky-message.js           | Loaded |
+| blacklist.js                | Loaded |
+| reset-buyer.js              | Loaded |
+| setup-testimoni.js          | Loaded |
+| testimoni.js                | Loaded |
+| ticket.js                   | Loaded |
+| verify.js                   | Loaded |
+| reset-vouch.js              | Loaded |
+| setup-vouch.js              | Loaded |
+| vouch.js                    | Loaded |
+| goodbye.js                  | Loaded |
+| welcome.js                  | Loaded |
+'--------------------------------------' 
+[2025-3-30 01:39:34] [COMMANDS] Found 48 SlashCommands.
+
+[2025-03-30T01:39:34.750Z] [INFO] [2025-3-30 01:39:34] [SLASH_COMMANDS] Started refreshing application (/) commands.
+
+[2025-03-30T01:39:34.752Z] [INFO] [2025-3-30 01:39:34] [PREFIX_COMMANDS] Started refreshing prefix (?) commands.
+
+[2025-03-30T01:39:34.752Z] [INFO] [38;5;202m.---------------------.
+| File Name  | Status |
+|------------|--------|
+| help.js    | Loaded |
+| botInfo.js | Loaded |
+| uptime.js  | Loaded |
+| ping.js    | Loaded |
+'---------------------' 
+[2025-3-30 01:39:34] [PREFIX_COMMANDS] Found 4 PrefixCommands.
+
+[2025-03-30T01:39:34.752Z] [INFO] [2025-3-30 01:39:34] [PREFIX_COMMANDS] Successfully reloaded prefix (?) commands.
+
+[2025-03-30T01:39:35.547Z] [INFO] [2025-3-30 01:39:35] [SLASH_COMMANDS] Successfully reloaded application (/) commands.
+
+[2025-03-30T01:39:36.379Z] [INFO] [38;5;45m[2025-3-30 01:39:36] [LATEST_VERSION] You have the latest version of the code. (v3.0.1) 
+
+[2025-03-30T01:39:36.878Z] [INFO] [2025-3-30 01:39:36] [SCHEMAS] Started loading schemas...
+
+[2025-03-30T01:39:36.885Z] [INFO] [2025-3-30 01:39:36] [ROTATING_STATUS] Setting rotating status...
+
+[2025-03-30T01:39:36.885Z] [INFO] [2025-3-30 01:39:36] [ROTATING_STATUS] Rotating status loaded successfully.
+
+[2025-03-30T01:39:36.886Z] [INFO] [2025-3-30 01:39:36] [STATUS] Setting status...
+
+[2025-03-30T01:39:36.886Z] [INFO] [2025-3-30 01:39:36] [STATUS] Tio Beta's status loaded as dnd.
+
+[2025-03-30T01:39:37.591Z] [INFO] [2025-3-30 01:39:37] [EVENTS] Started loading events...
+
+[2025-03-30T01:39:37.591Z] [INFO] [2025-3-30 01:39:37] [EVENTS] Loaded 45 events.
+
+[2025-03-30T01:39:37.592Z] [INFO] [2025-3-30 01:39:37] [DATABASE] Connected to MongoDB successfully.
+
+[2025-03-30T01:39:37.592Z] [INFO] [2025-3-30 01:39:37] [TRIGGERS] Started loading triggers...
+
+[2025-03-30T01:39:37.592Z] [INFO] [2025-3-30 01:39:37] [SCRIPTS] Started loading scripts...
+
+[2025-03-30T01:39:37.592Z] [INFO] [38;5;213m[2025-3-30 01:39:37] ========================================================================================================= 
+
+[2025-03-30T01:39:37.593Z] [INFO] [38;5;213m[2025-3-30 01:39:37] ██████╗ ███████╗██╗   ██╗    ██████╗ ██╗   ██╗    ██╗  ██╗██╗  ██╗███████╗██████╗ ███╗   ███╗██╗████████╗ 
+
+[2025-03-30T01:39:37.593Z] [INFO] [38;5;213m[2025-3-30 01:39:37] ██╔══██╗██╔════╝██║   ██║    ██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║ ██╔╝██╔════╝██╔══██╗████╗ ████║██║╚══██╔══╝ 
+
+[2025-03-30T01:39:37.593Z] [INFO] [38;5;213m[2025-3-30 01:39:37] ██║  ██║█████╗  ██║   ██║    ██████╔╝ ╚████╔╝     █████╔╝ █████╔╝ █████╗  ██████╔╝██╔████╔██║██║   ██║    
+
+[2025-03-30T01:39:37.593Z] [INFO] [38;5;213m[2025-3-30 01:39:37] ██║  ██║██╔══╝  ╚██╗ ██╔╝    ██╔══██╗  ╚██╔╝      ██╔═██╗ ██╔═██╗ ██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║    
+
+[2025-03-30T01:39:37.593Z] [INFO] [38;5;213m[2025-3-30 01:39:37] ██████╔╝███████╗ ╚████╔╝     ██████╔╝   ██║       ██║  ██╗██║  ██╗███████╗██║  ██║██║ ╚═╝ ██║██║   ██║    
+
+[2025-03-30T01:39:37.593Z] [INFO] [38;5;213m[2025-3-30 01:39:37] ╚═════╝ ╚══════╝  ╚═══╝      ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝    
+
+[2025-03-30T01:39:37.594Z] [INFO] [38;5;213m[2025-3-30 01:39:37] ================================== 
+
+[2025-03-30T01:39:37.594Z] [INFO] [38;5;213m[2025-3-30 01:39:37] [BOT] Tio Beta has been launched! 
+
+[2025-03-30T01:39:37.594Z] [INFO] [38;5;213m[2025-3-30 01:39:37] [BOT] Watching over 133 members! 
+
+[2025-03-30T01:39:37.594Z] [INFO] [38;5;213m[2025-3-30 01:39:37] [BOT] Watching over 6 servers! 
+
+[2025-03-30T01:39:37.594Z] [INFO] [2025-3-30 01:39:37] [SCHEMAS] Loaded 27 schema files.
+
+[2025-03-30T01:39:37.594Z] [INFO] [2025-3-30 01:39:37] [TRIGGERS] Loaded 1 triggers files.
+
+[2025-03-30T01:39:37.595Z] [INFO] [2025-3-30 01:39:37] [SCRIPTS] Loaded 4 scripts files.
+
+[2025-03-30T01:39:46.497Z] [INFO] [2025-3-30 01:39:46] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:40:02.809Z] [INFO] [2025-3-30 01:40:02] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:40:02.876Z] [ERROR] TypeError [ColorConvert]: Unable to convert "RED" to a number.
+    at resolveColor (/home/runner/workspace/node_modules/discord.js/src/util/Util.js:295:11)
+    at EmbedBuilder.setColor (/home/runner/workspace/node_modules/discord.js/src/structures/EmbedBuilder.js:23:36)
+    at Object.execute (/home/runner/workspace/src/commands/SelectMenuProduct/send-panel-product.js:60:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/src/events/CreateEvents/interactionCreate.js:14:13) {
+  code: 'ColorConvert'
+}
+
+[2025-03-30T01:40:14.151Z] [INFO] [2025-3-30 01:40:14] [CONSOLE_LOGGER] Console logger initialized. Logs will be sent to Discord webhook.
+[2025-03-30T01:40:14.454Z] [INFO] [2025-3-30 01:40:14] [PROCESS] Process handlers loaded.
+
+[2025-03-30T01:40:14.457Z] [INFO] channelUpdate event handler registered.
+
+[2025-03-30T01:40:14.457Z] [INFO] guildUpdate event handler registered.
+
+[2025-03-30T01:40:14.457Z] [INFO] roleUpdate event handler registered.
+
+[2025-03-30T01:40:14.457Z] [INFO] threadUpdate event handler registered.
+
+[2025-03-30T01:40:14.509Z] [INFO] guildMemberUpdate event handler registered.
+
+[2025-03-30T01:40:14.509Z] [INFO] userUpdate event handler registered.
+
+[2025-03-30T01:40:14.510Z] [INFO] messageUpdate event handler registered.
+
+[2025-03-30T01:40:14.510Z] [INFO] presenceUpdate event handler registered.
+
+[2025-03-30T01:40:14.510Z] [INFO] voiceStateUpdate event handler registered.
+
+[2025-03-30T01:40:15.021Z] [INFO] .--------------------------------------.
+|          File Name          | Status |
+|-----------------------------|--------|
+| auditLogging.js             | Loaded |
+| list-autoresponse.js        | Loaded |
+| remove-autoresponse.js      | Loaded |
+| setup-autoresponse.js       | Loaded |
+| minecraftInfo.js            | Loaded |
+| ping.js                     | Loaded |
+| countingSystem.js           | Loaded |
+| giveaway.js                 | Loaded |
+| avatar.js                   | Loaded |
+| memberCountGraph.js         | Loaded |
+| uptime.js                   | Loaded |
+| userinfo.js                 | Loaded |
+| leaderboard.js              | Loaded |
+| levellingSystem.js          | Loaded |
+| rank.js                     | Loaded |
+| rankContextMenu.js          | Loaded |
+| announcement.js             | Loaded |
+| antiLink.js                 | Loaded |
+| ban.js                      | Loaded |
+| kick.js                     | Loaded |
+| lock.js                     | Loaded |
+| muted.js                    | Loaded |
+| poll.js                     | Loaded |
+| purge.js                    | Loaded |
+| role.js                     | Loaded |
+| unban-all.js                | Loaded |
+| unban.js                    | Loaded |
+| unlock.js                   | Loaded |
+| unmuted.js                  | Loaded |
+| warning.js                  | Loaded |
+| add-role.js                 | Loaded |
+| remove-role.js              | Loaded |
+| send-reactionroles-panel.js | Loaded |
+| add-select-product.js       | Loaded |
+| reset-all-menu-product.js   | Loaded |
+| send-panel-product.js       | Loaded |
+| sticky-message.js           | Loaded |
+| blacklist.js                | Loaded |
+| reset-buyer.js              | Loaded |
+| setup-testimoni.js          | Loaded |
+| testimoni.js                | Loaded |
+| ticket.js                   | Loaded |
+| verify.js                   | Loaded |
+| reset-vouch.js              | Loaded |
+| setup-vouch.js              | Loaded |
+| vouch.js                    | Loaded |
+| goodbye.js                  | Loaded |
+| welcome.js                  | Loaded |
+'--------------------------------------' 
+[2025-3-30 01:40:15] [COMMANDS] Found 48 SlashCommands.
+
+[2025-03-30T01:40:15.021Z] [INFO] [2025-3-30 01:40:15] [SLASH_COMMANDS] Started refreshing application (/) commands.
+
+[2025-03-30T01:40:15.025Z] [INFO] [2025-3-30 01:40:15] [PREFIX_COMMANDS] Started refreshing prefix (?) commands.
+
+[2025-03-30T01:40:15.026Z] [INFO] [38;5;202m.---------------------.
+| File Name  | Status |
+|------------|--------|
+| help.js    | Loaded |
+| botInfo.js | Loaded |
+| uptime.js  | Loaded |
+| ping.js    | Loaded |
+'---------------------' 
+[2025-3-30 01:40:15] [PREFIX_COMMANDS] Found 4 PrefixCommands.
+
+[2025-03-30T01:40:15.026Z] [INFO] [2025-3-30 01:40:15] [PREFIX_COMMANDS] Successfully reloaded prefix (?) commands.
+
+[2025-03-30T01:40:15.911Z] [INFO] [2025-3-30 01:40:15] [SLASH_COMMANDS] Successfully reloaded application (/) commands.
+
+[2025-03-30T01:40:16.500Z] [INFO] [38;5;45m[2025-3-30 01:40:16] [LATEST_VERSION] You have the latest version of the code. (v3.0.1) 
+
+[2025-03-30T01:40:17.694Z] [INFO] [2025-3-30 01:40:17] [SCHEMAS] Started loading schemas...
+
+[2025-03-30T01:40:17.701Z] [INFO] [2025-3-30 01:40:17] [ROTATING_STATUS] Setting rotating status...
+
+[2025-03-30T01:40:17.701Z] [INFO] [2025-3-30 01:40:17] [ROTATING_STATUS] Rotating status loaded successfully.
+
+[2025-03-30T01:40:17.702Z] [INFO] [2025-3-30 01:40:17] [STATUS] Setting status...
+
+[2025-03-30T01:40:17.702Z] [INFO] [2025-3-30 01:40:17] [STATUS] Tio Beta's status loaded as dnd.
+
+[2025-03-30T01:40:18.380Z] [INFO] [2025-3-30 01:40:18] [EVENTS] Started loading events...
+
+[2025-03-30T01:40:18.380Z] [INFO] [2025-3-30 01:40:18] [EVENTS] Loaded 45 events.
+
+[2025-03-30T01:40:18.381Z] [INFO] [2025-3-30 01:40:18] [DATABASE] Connected to MongoDB successfully.
+
+[2025-03-30T01:40:18.382Z] [INFO] [2025-3-30 01:40:18] [TRIGGERS] Started loading triggers...
+
+[2025-03-30T01:40:18.382Z] [INFO] [2025-3-30 01:40:18] [SCRIPTS] Started loading scripts...
+
+[2025-03-30T01:40:18.382Z] [INFO] [38;5;213m[2025-3-30 01:40:18] ========================================================================================================= 
+
+[2025-03-30T01:40:18.382Z] [INFO] [38;5;213m[2025-3-30 01:40:18] ██████╗ ███████╗██╗   ██╗    ██████╗ ██╗   ██╗    ██╗  ██╗██╗  ██╗███████╗██████╗ ███╗   ███╗██╗████████╗ 
+
+[2025-03-30T01:40:18.382Z] [INFO] [38;5;213m[2025-3-30 01:40:18] ██╔══██╗██╔════╝██║   ██║    ██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║ ██╔╝██╔════╝██╔══██╗████╗ ████║██║╚══██╔══╝ 
+
+[2025-03-30T01:40:18.383Z] [INFO] [38;5;213m[2025-3-30 01:40:18] ██║  ██║█████╗  ██║   ██║    ██████╔╝ ╚████╔╝     █████╔╝ █████╔╝ █████╗  ██████╔╝██╔████╔██║██║   ██║    
+
+[2025-03-30T01:40:18.383Z] [INFO] [38;5;213m[2025-3-30 01:40:18] ██║  ██║██╔══╝  ╚██╗ ██╔╝    ██╔══██╗  ╚██╔╝      ██╔═██╗ ██╔═██╗ ██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║    
+
+[2025-03-30T01:40:18.383Z] [INFO] [38;5;213m[2025-3-30 01:40:18] ██████╔╝███████╗ ╚████╔╝     ██████╔╝   ██║       ██║  ██╗██║  ██╗███████╗██║  ██║██║ ╚═╝ ██║██║   ██║    
+
+[2025-03-30T01:40:18.383Z] [INFO] [38;5;213m[2025-3-30 01:40:18] ╚═════╝ ╚══════╝  ╚═══╝      ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝    
+
+[2025-03-30T01:40:18.383Z] [INFO] [38;5;213m[2025-3-30 01:40:18] ================================== 
+
+[2025-03-30T01:40:18.383Z] [INFO] [38;5;213m[2025-3-30 01:40:18] [BOT] Tio Beta has been launched! 
+
+[2025-03-30T01:40:18.383Z] [INFO] [38;5;213m[2025-3-30 01:40:18] [BOT] Watching over 133 members! 
+
+[2025-03-30T01:40:18.384Z] [INFO] [38;5;213m[2025-3-30 01:40:18] [BOT] Watching over 6 servers! 
+
+[2025-03-30T01:40:18.384Z] [INFO] [2025-3-30 01:40:18] [SCHEMAS] Loaded 27 schema files.
+
+[2025-03-30T01:40:18.384Z] [INFO] [2025-3-30 01:40:18] [TRIGGERS] Loaded 1 triggers files.
+
+[2025-03-30T01:40:18.385Z] [INFO] [2025-3-30 01:40:18] [SCRIPTS] Loaded 4 scripts files.
+
+[2025-03-30T01:40:31.950Z] [INFO] [2025-3-30 01:40:31] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:40:53.773Z] [INFO] [2025-3-30 01:40:53] [SLASH_COMMAND_USED] Error while logging command usage. Check if you have the correct channel ID in your config.
+
+[2025-03-30T01:40:53.841Z] [ERROR] TypeError [ColorConvert]: Unable to convert "RED" to a number.
+    at resolveColor (/home/runner/workspace/node_modules/discord.js/src/util/Util.js:295:11)
+    at EmbedBuilder.setColor (/home/runner/workspace/node_modules/discord.js/src/structures/EmbedBuilder.js:23:36)
+    at Object.execute (/home/runner/workspace/src/commands/SelectMenuProduct/send-panel-product.js:60:18)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.execute (/home/runner/workspace/src/events/CreateEvents/interactionCreate.js:14:13) {
+  code: 'ColorConvert'
+}
+
+[2025-03-30T08:16:15.777Z] [INFO] [2025-3-30 08:16:15] [CONSOLE_LOGGER] Console logger initialized. Logs will be sent to Discord webhook.
+[2025-03-30T08:16:16.824Z] [INFO] [2025-3-30 08:16:16] [PROCESS] Process handlers loaded.
+
+[2025-03-30T08:16:16.828Z] [INFO] channelUpdate event handler registered.
+
+[2025-03-30T08:16:16.828Z] [INFO] guildUpdate event handler registered.
+
+[2025-03-30T08:16:16.828Z] [INFO] roleUpdate event handler registered.
+
+[2025-03-30T08:16:16.828Z] [INFO] threadUpdate event handler registered.
+
+[2025-03-30T08:16:16.828Z] [INFO] guildMemberUpdate event handler registered.
+
+[2025-03-30T08:16:16.828Z] [INFO] userUpdate event handler registered.
+
+[2025-03-30T08:16:16.829Z] [INFO] messageUpdate event handler registered.
+
+[2025-03-30T08:16:16.829Z] [INFO] presenceUpdate event handler registered.
+
+[2025-03-30T08:16:16.829Z] [INFO] voiceStateUpdate event handler registered.
+
+[2025-03-30T08:16:21.962Z] [INFO] .--------------------------------------.
+|          File Name          | Status |
+|-----------------------------|--------|
+| auditLogging.js             | Loaded |
+| list-autoresponse.js        | Loaded |
+| remove-autoresponse.js      | Loaded |
+| setup-autoresponse.js       | Loaded |
+| minecraftInfo.js            | Loaded |
+| ping.js                     | Loaded |
+| countingSystem.js           | Loaded |
+| giveaway.js                 | Loaded |
+| avatar.js                   | Loaded |
+| memberCountGraph.js         | Loaded |
+| uptime.js                   | Loaded |
+| userinfo.js                 | Loaded |
+| leaderboard.js              | Loaded |
+| levellingSystem.js          | Loaded |
+| rank.js                     | Loaded |
+| rankContextMenu.js          | Loaded |
+| announcement.js             | Loaded |
+| antiLink.js                 | Loaded |
+| ban.js                      | Loaded |
+| kick.js                     | Loaded |
+| lock.js                     | Loaded |
+| muted.js                    | Loaded |
+| poll.js                     | Loaded |
+| purge.js                    | Loaded |
+| role.js                     | Loaded |
+| unban-all.js                | Loaded |
+| unban.js                    | Loaded |
+| unlock.js                   | Loaded |
+| unmuted.js                  | Loaded |
+| warning.js                  | Loaded |
+| add-role.js                 | Loaded |
+| remove-role.js              | Loaded |
+| send-reactionroles-panel.js | Loaded |
+| add-select-product.js       | Loaded |
+| reset-all-menu-product.js   | Loaded |
+| send-panel-product.js       | Loaded |
+| sticky-message.js           | Loaded |
+| blacklist.js                | Loaded |
+| reset-buyer.js              | Loaded |
+| setup-testimoni.js          | Loaded |
+| testimoni.js                | Loaded |
+| ticket.js                   | Loaded |
+| verify.js                   | Loaded |
+| reset-vouch.js              | Loaded |
+| setup-vouch.js              | Loaded |
+| vouch.js                    | Loaded |
+| goodbye.js                  | Loaded |
+| welcome.js                  | Loaded |
+'--------------------------------------' 
+[2025-3-30 08:16:21] [COMMANDS] Found 48 SlashCommands.
+
+[2025-03-30T08:16:21.963Z] [INFO] [2025-3-30 08:16:21] [SLASH_COMMANDS] Started refreshing application (/) commands.
+
+[2025-03-30T08:16:21.966Z] [INFO] [2025-3-30 08:16:21] [PREFIX_COMMANDS] Started refreshing prefix (?) commands.
+
+[2025-03-30T08:16:21.966Z] [INFO] [38;5;202m.---------------------.
+| File Name  | Status |
+|------------|--------|
+| help.js    | Loaded |
+| botInfo.js | Loaded |
+| uptime.js  | Loaded |
+| ping.js    | Loaded |
+'---------------------' 
+[2025-3-30 08:16:21] [PREFIX_COMMANDS] Found 4 PrefixCommands.
+
+[2025-03-30T08:16:21.966Z] [INFO] [2025-3-30 08:16:21] [PREFIX_COMMANDS] Successfully reloaded prefix (?) commands.
+
+[2025-03-30T08:16:22.751Z] [INFO] [2025-3-30 08:16:22] [SLASH_COMMANDS] Successfully reloaded application (/) commands.
+
+[2025-03-30T08:16:23.679Z] [INFO] [38;5;45m[2025-3-30 08:16:23] [LATEST_VERSION] You have the latest version of the code. (v3.0.1) 
+
+[2025-03-30T08:16:24.563Z] [INFO] [2025-3-30 08:16:24] [SCHEMAS] Started loading schemas...
+
+[2025-03-30T08:16:24.578Z] [INFO] [2025-3-30 08:16:24] [ROTATING_STATUS] Setting rotating status...
+
+[2025-03-30T08:16:24.578Z] [INFO] [2025-3-30 08:16:24] [ROTATING_STATUS] Rotating status loaded successfully.
+
+[2025-03-30T08:16:24.579Z] [INFO] [2025-3-30 08:16:24] [STATUS] Setting status...
+
+[2025-03-30T08:16:24.579Z] [INFO] [2025-3-30 08:16:24] [STATUS] Tio Beta's status loaded as dnd.
+
+[2025-03-30T08:16:25.538Z] [INFO] [2025-3-30 08:16:25] [EVENTS] Started loading events...
+
+[2025-03-30T08:16:25.538Z] [INFO] [2025-3-30 08:16:25] [EVENTS] Loaded 45 events.
+
+[2025-03-30T08:16:25.539Z] [INFO] [2025-3-30 08:16:25] [DATABASE] Connected to MongoDB successfully.
+
+[2025-03-30T08:16:25.539Z] [INFO] [2025-3-30 08:16:25] [TRIGGERS] Started loading triggers...
+
+[2025-03-30T08:16:25.539Z] [INFO] [2025-3-30 08:16:25] [SCRIPTS] Started loading scripts...
+
+[2025-03-30T08:16:25.540Z] [INFO] [38;5;213m[2025-3-30 08:16:25] ========================================================================================================= 
+
+[2025-03-30T08:16:25.540Z] [INFO] [38;5;213m[2025-3-30 08:16:25] ██████╗ ███████╗██╗   ██╗    ██████╗ ██╗   ██╗    ██╗  ██╗██╗  ██╗███████╗██████╗ ███╗   ███╗██╗████████╗ 
+
+[2025-03-30T08:16:25.540Z] [INFO] [38;5;213m[2025-3-30 08:16:25] ██╔══██╗██╔════╝██║   ██║    ██╔══██╗╚██╗ ██╔╝    ██║ ██╔╝██║ ██╔╝██╔════╝██╔══██╗████╗ ████║██║╚══██╔══╝ 
+
+[2025-03-30T08:16:25.540Z] [INFO] [38;5;213m[2025-3-30 08:16:25] ██║  ██║█████╗  ██║   ██║    ██████╔╝ ╚████╔╝     █████╔╝ █████╔╝ █████╗  ██████╔╝██╔████╔██║██║   ██║    
+
+[2025-03-30T08:16:25.540Z] [INFO] [38;5;213m[2025-3-30 08:16:25] ██║  ██║██╔══╝  ╚██╗ ██╔╝    ██╔══██╗  ╚██╔╝      ██╔═██╗ ██╔═██╗ ██╔══╝  ██╔══██╗██║╚██╔╝██║██║   ██║    
+
+[2025-03-30T08:16:25.540Z] [INFO] [38;5;213m[2025-3-30 08:16:25] ██████╔╝███████╗ ╚████╔╝     ██████╔╝   ██║       ██║  ██╗██║  ██╗███████╗██║  ██║██║ ╚═╝ ██║██║   ██║    
+
+[2025-03-30T08:16:25.541Z] [INFO] [38;5;213m[2025-3-30 08:16:25] ╚═════╝ ╚══════╝  ╚═══╝      ╚═════╝    ╚═╝       ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝    
+
+[2025-03-30T08:16:25.541Z] [INFO] [38;5;213m[2025-3-30 08:16:25] ================================== 
+
+[2025-03-30T08:16:25.541Z] [INFO] [38;5;213m[2025-3-30 08:16:25] [BOT] Tio Beta has been launched! 
+
+[2025-03-30T08:16:25.541Z] [INFO] [38;5;213m[2025-3-30 08:16:25] [BOT] Watching over 134 members! 
+
+[2025-03-30T08:16:25.541Z] [INFO] [38;5;213m[2025-3-30 08:16:25] [BOT] Watching over 6 servers! 
+
+[2025-03-30T08:16:25.542Z] [INFO] [2025-3-30 08:16:25] [SCHEMAS] Loaded 27 schema files.
+
+[2025-03-30T08:16:25.542Z] [INFO] [2025-3-30 08:16:25] [TRIGGERS] Loaded 1 triggers files.
+
+[2025-03-30T08:16:25.542Z] [INFO] [2025-3-30 08:16:25] [SCRIPTS] Loaded 4 scripts files.
+
+[2025-03-30T08:21:09.798Z] [INFO] [2025-3-30 08:21:09] [ERROR] UNCAUGHT EXCEPTION: TypeError: Cannot read properties of undefined (reading 'error')\n
+
+[2025-03-30T08:21:09.798Z] [INFO]     at Object.execute (/home/runner/workspace/src/events/GuildCreateDeleteEvents/guildCreateEvent.js:17:25)\n
+
+[2025-03-30T08:21:09.798Z] [INFO]     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+[2025-03-30T08:21:31.950Z] [INFO] [38;5;45m[2025-3-30 08:21:31] [SLASH_COMMAND_USED] domplywys has used a command. 
+[38;5;45m> Server: Emoji Tio 
+> Command: /announcement message:Tes embed:yes 
+> User: domplywys 
+> UserID: 1226523294774071346
+
+[2025-03-30T08:21:42.988Z] [INFO] [38;5;45m[2025-3-30 08:21:42] [SLASH_COMMAND_USED] domplywys has used a command. 
+[38;5;45m> Server: Emoji Tio 
+> Command: /announcement message:p embed:no 
+> User: domplywys 
+> UserID: 1226523294774071346
+
+[2025-03-30T08:23:39.396Z] [INFO] [38;5;45m[2025-3-30 08:23:39] [SLASH_COMMAND_USED] domplywys has used a command. 
+[38;5;45m> Server: Emoji Tio 
+> Command: /announcement message:tes embed:yes 
+> User: domplywys 
+> UserID: 1226523294774071346
+
+[2025-03-30T08:23:49.944Z] [INFO] [38;5;45m[2025-3-30 08:23:49] [SLASH_COMMAND_USED] domplywys has used a command. 
+[38;5;45m> Server: Emoji Tio 
+> Command: /announcement message:tes @everyone embed:no 
+> User: domplywys 
+> UserID: 1226523294774071346
+
