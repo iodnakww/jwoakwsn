@@ -18,6 +18,8 @@
     "canvacord": "^5.4.8",
     "canvafy": "^7.1.0",
     "samp-query": "^0.1.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
     "canvas": "^2.10.2",
     "discord-arts": "^0.6.1",
     "discord-giveaways": "^6.0.1",
