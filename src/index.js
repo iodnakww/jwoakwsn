@@ -1,26 +1,29 @@
+// EXPRESS SERVER SETUP
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Everything is up!');
+});
+
+app.listen(10000, () => {
+  console.log('✅ Express server running on http://localhost:10000');
+});
+
+// DISCORD SETUP
 const { Client, Collection } = require(`discord.js`);
 const fs = require('fs');
 const config = require('./config');
 const { getTimestamp, color } = require('./utils/loggingEffects.js');
 const setupLoggers = require('./utils/setupLoggers');
 
-// Client Loader //
-
 const loadEnvironment = require('./scripts/bootMode');
 loadEnvironment();
 
-// Set up environment variables
 require('dotenv').config();
-
-// Setup logging first to capture everything
 setupLoggers();
 
-// Version Control //
-
 const currentVersion = `${config.botVersion}`;
-
-// Intents & Partials //
-
 const { intents, partials } = require('./utils/intents.js');
 
 let client;
@@ -36,13 +39,9 @@ try {
 client.logs = require('./utils/logs');
 client.config = require('./config');
 
-// Val Api //
-
 client.swatch = null;
 client.skins = null;
 client.skinsTier = null;
-
-// Packages //
 
 const giveawayClient = require('./client/giveawayClientEvent.js');
 const auditLogsClient = require('./client/auditLogsClientEvent.js');
@@ -54,7 +53,6 @@ require('./functions/processHandlers')();
 client.commands = new Collection();
 client.pcommands = new Collection();
 client.aliases = new Collection();
-
 
 const functions = fs.readdirSync("./src/functions").filter(file => file.endsWith(".js"));
 const triggerFiles = fs.readdirSync("./src/triggers").filter(file => file.endsWith(".js"));
@@ -68,8 +66,6 @@ if (!token) {
     return;
 }
 
-// Client Loader //
-
 giveawayClient(client);
 auditLogsClient(client);
 
@@ -78,14 +74,14 @@ auditLogsClient(client);
         require(`./functions/${file}`)(client);
     }
     client.handleEvents(eventFiles, "./src/events");
-    client.handleTriggers(triggerFiles, "./src/triggers")
+    client.handleTriggers(triggerFiles, "./src/triggers");
     client.handleCommands(commandFolders, "./src/commands");
     client.prefixCommands(pcommandFolders, './src/prefix');
-    // Loads Val Api //
+
     client.login(token).then(() => {
-        handleLogs(client)
+        handleLogs(client);
         checkVersion(currentVersion);
     }).catch((error) => {
-        console.error(`${color.red}[${getTimestamp()}]${color.reset} [LOGIN] Error while logging into ${config.botName}. Check if your token is correct or double check your also using the correct intents. \n${color.red}[${getTimestamp()}]${color.reset} [LOGIN]`, error);
+        console.error(`${color.red}[${getTimestamp()}]${color.reset} [LOGIN] Error while logging into ${config.botName}. \n${color.red}[${getTimestamp()}]${color.reset} [LOGIN]`, error);
     });
 })();
