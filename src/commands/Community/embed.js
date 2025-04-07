@@ -43,7 +43,7 @@ module.exports = {
         .addStringOption(option =>
             option.setName('timestamp')
                 .setDescription('Include timestamp? (yes/no)')
-                .setRequired(true)
+                .setRequired(false))
                 .addChoices(
                     { name: 'Yes', value: 'yes' },
                     { name: 'No', value: 'no' }
