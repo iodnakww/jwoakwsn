@@ -2,7 +2,7 @@ const { SlashCommandBuilder, EmbedBuilder, PermissionFlagsBits } = require('disc
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('fullembed')
+        .setName('embed')
         .setDescription('Send a fully customizable embed message to the channel')
         .addStringOption(option =>
             option.setName('title')
