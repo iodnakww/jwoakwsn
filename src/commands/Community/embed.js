@@ -2,7 +2,7 @@ const { SlashCommandBuilder, EmbedBuilder, PermissionFlagsBits } = require('disc
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('system-embed')
+        .setName('fullembed')
         .setDescription('Send a fully customizable embed message to the channel')
         .addStringOption(option =>
             option.setName('title')
@@ -66,22 +66,27 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setTitle(title)
             .setDescription(description)
-            .setColor(color)
-            .setFooter({ text: footer || '' })
-            .setImage(imageUrl || null)
-            .setThumbnail(thumbnailUrl || null)
-            .setAuthor({
-                name: author || '',
-                url: authorUrl || null,
-                iconURL: authorIcon || null
-            });
+            .setColor(color);
 
-        // Conditionally add a timestamp if required
-        if (timestampChoice) {
-            embed.setTimestamp();
+        // Add optional footer
+        if (footer) embed.setFooter({ text: footer });
+
+        // Add image if URL provided
+        if (imageUrl) embed.setImage(imageUrl);
+
+        // Add thumbnail if URL provided
+        if (thumbnailUrl) embed.setThumbnail(thumbnailUrl);
+
+        // Add author details if provided
+        if (author) {
+            embed.setAuthor({ name: author, url: authorUrl, iconURL: authorIcon });
         }
 
+        // Add timestamp if requested
+        if (timestampChoice) embed.setTimestamp();
+
         // Send the embed to the channel
-        await interaction.reply({ embeds: [embed] });
+        await interaction.reply({ content: "Your full embed has been sent!", ephemeral: true });
+        await interaction.channel.send({ embeds: [embed] });
     }
 };
