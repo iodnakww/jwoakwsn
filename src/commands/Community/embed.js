@@ -64,3 +64,24 @@ module.exports = {
 
         // Create the embed
         const embed = new EmbedBuilder()
+            .setTitle(title)
+            .setDescription(description)
+            .setColor(color)
+            .setFooter({ text: footer || '' })
+            .setImage(imageUrl || null)
+            .setThumbnail(thumbnailUrl || null)
+            .setAuthor({
+                name: author || '',
+                url: authorUrl || null,
+                iconURL: authorIcon || null
+            });
+
+        // Conditionally add a timestamp if required
+        if (timestampChoice) {
+            embed.setTimestamp();
+        }
+
+        // Send the embed to the channel
+        await interaction.reply({ embeds: [embed] });
+    }
+};
