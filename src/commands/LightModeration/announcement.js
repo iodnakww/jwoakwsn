@@ -16,11 +16,16 @@ module.exports = {
                     { name: 'Yes', value: 'yes' },
                     { name: 'No', value: 'no' }
                 ))
-        .setDefaultMemberPermissions(PermissionFlagsBits.ManageMessages), // Hanya pengguna dengan izin Manage Messages yang bisa menggunakannya
+        .addAttachmentOption(option =>
+            option.setName('image')
+                .setDescription('Optional image to include')
+                .setRequired(false))
+        .setDefaultMemberPermissions(PermissionFlagsBits.ManageMessages),
 
     async execute(interaction) {
         const message = interaction.options.getString('message');
         const embedChoice = interaction.options.getString('embed');
+        const image = interaction.options.getAttachment('image');
 
         await interaction.reply({ content: "Sent announcement in channel!", ephemeral: true });
 
@@ -30,9 +35,21 @@ module.exports = {
                 .setDescription(message)
                 .setTimestamp();
 
-            await interaction.channel.send({ content: '@everyone', embeds: [embed] });
+            if (image && image.contentType?.startsWith('image/')) {
+                embed.setImage(image.url);
+            }
+
+            await interaction.channel.send({
+                content: '@everyone',
+                embeds: [embed]
+            });
         } else {
-            await interaction.channel.send(message);
+            const options = { content: '@everyone\n' + message };
+            if (image && image.contentType?.startsWith('image/')) {
+                options.files = [image];
+            }
+
+            await interaction.channel.send(options);
         }
     }
 };
