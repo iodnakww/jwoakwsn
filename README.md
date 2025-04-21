@@ -26,7 +26,7 @@ bun dev
 ```
 
 ## Author
-- Azis.exe
+- Domplwys
 
 ## License
 
